@@ -1,3 +1,3 @@
 install:
-  FILE="-Dfile=DermalogAndroidCommon-2.0.2.aar"
+  FILE="-Dfile=DermalogAndroidCommon.aar"
   mvn install:install-file $FILE -DgroupId=com.dermalog.common -DartifactId=DermalogAndroidCommon -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
